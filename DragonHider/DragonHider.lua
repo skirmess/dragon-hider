@@ -1,5 +1,5 @@
 
-local DragonHider_Version = 2
+local DragonHider_Version = 3
 
 function DragonHider_OnEvent(event)
 
