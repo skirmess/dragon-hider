@@ -1,0 +1,8 @@
+## Interface: 30000
+## Title: DragonHide
+## Author: Kring
+## Notes: AddOn to hide the ugly action bar dragon
+## OptionalDeps:
+## Dependencies:
+## SavedVariables: 
+DragonHider.xml
