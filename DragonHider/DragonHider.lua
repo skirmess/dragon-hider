@@ -1,5 +1,7 @@
 
-local DragonHider_Version = 3
+-- Copyright (c) 2009, Sven Kirmess
+
+local DragonHider_Version = 4
 
 function DragonHider_OnEvent(event)
 
