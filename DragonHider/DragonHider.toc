@@ -1,9 +1,0 @@
-## Interface: 30200
-## Title: DragonHide
-## Author: Sven Kirmess
-## Notes: Hide the ugly action bar dragon
-## OptionalDeps:
-## Dependencies:
-## SavedVariables:
-## X-Website: http://code.google.com/p/dragon-hider/
-DragonHider.xml
