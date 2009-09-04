@@ -7,10 +7,10 @@
 	<Frame name="DragonHider_dummy" hidden="true">
 		<Scripts>
 			<OnLoad>
-				this:RegisterEvent("PLAYER_ENTERING_WORLD");
+				this:RegisterEvent("PLAYER_ENTERING_WORLD")
 			</OnLoad>
 			<OnEvent>
-				DragonHider_OnEvent(event);
+				DragonHider_OnEvent(event)
 			</OnEvent>
 		</Scripts>
 	</Frame>
