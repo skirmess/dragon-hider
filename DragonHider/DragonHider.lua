@@ -1,7 +1,7 @@
 
 -- Copyright (c) 2009, Sven Kirmess
 
-local DragonHider_Version = 4
+local Version = 5
 
 function DragonHider_OnEvent(event)
 
@@ -11,7 +11,7 @@ function DragonHider_OnEvent(event)
 		MainMenuBarLeftEndCap:Hide()
 		MainMenuBarRightEndCap:Hide()
 
-		DEFAULT_CHAT_FRAME:AddMessage(string.format("DragonHider %i loaded.", DragonHider_Version ))
+		DEFAULT_CHAT_FRAME:AddMessage(string.format("DragonHider %i loaded.", Version ))
 	end
 end
 

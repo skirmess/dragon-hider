@@ -5,6 +5,9 @@ Hides the ugly dragon left and right from your action bar.
 
 *** Changelog
 
+Version 5
+ * Code cleanup.
+
 Version 4
  * Updated TOC for WoW 3.2
  * Added license information
