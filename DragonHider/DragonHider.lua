@@ -3,10 +3,10 @@
 
 local Version = 5
 
-function DragonHider_OnEvent(event)
+function EventHandler(self, event, ...)
 
 	if ( event == "PLAYER_ENTERING_WORLD" ) then
-		this:UnregisterEvent("PLAYER_ENTERING_WORLD")
+		self:UnregisterEvent("PLAYER_ENTERING_WORLD")
 
 		MainMenuBarLeftEndCap:Hide()
 		MainMenuBarRightEndCap:Hide()
@@ -14,4 +14,10 @@ function DragonHider_OnEvent(event)
 		DEFAULT_CHAT_FRAME:AddMessage(string.format("DragonHider %i loaded.", Version ))
 	end
 end
+
+-- main
+local frame = CreateFrame("Frame")
+frame:RegisterEvent("PLAYER_ENTERING_WORLD")
+frame:RegisterEvent("PLAYER_LEAVING_WORLD")
+frame:SetScript("OnEvent", EventHandler)
 

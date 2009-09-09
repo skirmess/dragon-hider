@@ -6,4 +6,4 @@
 ## Dependencies:
 ## SavedVariables:
 ## X-Website: http://code.google.com/p/dragon-hider/
-DragonHider.xml
+DragonHider.lua
