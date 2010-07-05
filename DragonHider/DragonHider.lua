@@ -1,9 +1,9 @@
 
--- Copyright (c) 2009, Sven Kirmess
+-- Copyright (c) 2009-2010, Sven Kirmess
 
-local Version = 5
+local Version = 6
 
-function EventHandler(self, event, ...)
+local function EventHandler(self, event, ...)
 
 	if ( event == "PLAYER_ENTERING_WORLD" ) then
 		self:UnregisterEvent("PLAYER_ENTERING_WORLD")
