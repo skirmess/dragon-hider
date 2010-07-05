@@ -5,12 +5,10 @@ Hides the ugly dragon left and right from your action bar.
 
 *** Changelog
 
-Version 6
+Version 5
  * Updated TOC for WoW 3.3.5
  * No longer registers the "PLAYER_LEAVING_WORLD" which was not used
  * EventHandler() is now local.
-
-Version 5
  * Code cleanup.
  * No longer use an XML file.
 
