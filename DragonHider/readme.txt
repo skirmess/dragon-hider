@@ -5,6 +5,9 @@ Hides the ugly dragon left and right from your action bar.
 
 *** Changelog
 
+Version 6
+ * Updated TOC for WoW 4.0.1
+
 Version 5
  * Updated TOC for WoW 3.3.5
  * No longer registers the "PLAYER_LEAVING_WORLD" which was not used

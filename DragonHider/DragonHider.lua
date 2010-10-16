@@ -1,7 +1,7 @@
 
 -- Copyright (c) 2009-2010, Sven Kirmess
 
-local Version = 5
+local Version = 6
 
 local function EventHandler(self, event, ...)
 
