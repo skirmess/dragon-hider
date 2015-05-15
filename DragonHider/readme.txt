@@ -5,6 +5,11 @@ Hides the ugly dragon left and right from your action bar.
 
 *** Changelog
 
+Version 11
+ * Updated TOC for WoW 6.1.0
+ * Changed project web page to GitHub
+   https://github.com/skirmess/dragon-hider
+
 Version 10
  * Updated TOC for WoW 6.0.0
 
